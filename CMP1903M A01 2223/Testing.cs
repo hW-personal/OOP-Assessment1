@@ -123,8 +123,7 @@ namespace CMP1903M_A01_2223
                 Console.WriteLine("Test 7: Deal with amount failed. Exception: " + e.Message);
             }
 
-            Console.Write("Press any key to continue . . . ");
-            Console.ReadKey();
+            Console.Write("Press any key to continue . . . ");Console.ReadKey();
         }
     }
 }

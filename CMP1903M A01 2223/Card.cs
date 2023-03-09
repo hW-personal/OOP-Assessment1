@@ -21,6 +21,8 @@ namespace CMP1903M_A01_2223
         private int _value;
         private int _suit;
 
+
+        //  Card constructor
         public Card(int value, int suit)
         {
             Value = value;
@@ -29,6 +31,8 @@ namespace CMP1903M_A01_2223
 
         public int Value
         {
+
+            //  Getter and Setter method to return the value of the card
             get { return _value; }
             set
             {
@@ -43,6 +47,8 @@ namespace CMP1903M_A01_2223
 
         public int Suit
         {
+
+            //  Getter and Setter method to return the suit of the card
             get { return _suit; }
             set
             {
@@ -54,6 +60,8 @@ namespace CMP1903M_A01_2223
             }
         }
 
+
+        //  Returns a phrase based off of the given suit/value applied to the two array of strings
         public override string ToString()
         {
             string[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
