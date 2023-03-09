@@ -14,49 +14,51 @@ namespace CMP1903M_A01_2223
         //The 'set' methods for these properties could have some validation
         //There are 52 cards in a deck
 
-        //public int Value { get; set; }
+        /*public int Value { get; set; }
         //public int Suit { get; set; }
+        */
 
-        private int value;
-        private int suit;
+        private int _value;
+        private int _suit;
 
-        Card card = new Card();
-        card.Value = 1; //minimum value
-        card.Suit = 1; //minmum suit
-        Console.WriteLine($"Value: {card.Value}, Suit: {card.Suit}");
-
-        card.Value = 13; //maximum value
-        card.Suit = 4; //maximum suit
-        Console.WriteLine($"Value: {card.Value}, Suit: {card.Suit}");
-
-
-
+        public Card(int value, int suit)
+        {
+            Value = value;
+            Suit = suit;
+        }
 
         public int Value
         {
-            get { return Value ; }
+            get { return _value; }
             set
             {
                 if (value < 1 || value > 13)
                 {
                     throw new ArgumentException("Invalid card value.");
                 }
-                this.value = value;
+                _value = value;
             }
 
         }
 
         public int Suit
         {
-            get { return Suit ; }
+            get { return _suit; }
             set
-            { 
-                if (value < 1 || value > 4 )
+            {
+                if (value < 1 || value > 4)
                 {
                     throw new ArgumentException("Invalid card suit.");
                 }
-                this.suit = value ;
+                _suit = value;
             }
+        }
+
+        public override string ToString()
+        {
+            string[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
+            string[] values = { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
+            return values[Value - 1] + " of " + suits[Suit - 1];
         }
     }
 }
