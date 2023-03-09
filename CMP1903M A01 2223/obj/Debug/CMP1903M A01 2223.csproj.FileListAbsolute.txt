@@ -1,0 +1,11 @@
+D:\Programming Stuff\Visual Studio 2022\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.AssemblyReference.cache
+D:\Programming Stuff\Visual Studio 2022\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.SuggestedBindingRedirects.cache
+D:\Programming Stuff\Visual Studio 2022\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.CoreCompileInputs.cache
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.AssemblyReference.cache
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.SuggestedBindingRedirects.cache
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.CoreCompileInputs.cache
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\bin\Debug\CMP1903M A01 2223.exe.config
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\bin\Debug\CMP1903M A01 2223.exe
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\bin\Debug\CMP1903M A01 2223.pdb
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.exe
+C:\Users\henry\source\repos\OOP-Assessment1\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.pdb
